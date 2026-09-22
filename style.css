@@ -987,7 +987,9 @@ footer hr {
     height: 30vh;
     object-fit: cover;
 }
-
+.card-img-top{
+	height: 55vh;
+}
 /*---------------------ancora-------------------*/
 .ancora{
 	text-align: center; 
