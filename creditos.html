@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>NoosIA - Conheça a tecnologia que está revolucionando o mundo.</title>
+		<link rel="icon" type="image/png" href="img/icone.png">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header class="header">
+			<div class="nav-container">
+				<div class="logo">
+					<a href="#">Noos<span>IA</span></a>
+				</div>
+				<button class="menu-toggle" id="menuToggle" aria-label="Abrir Menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+				<nav class="nav-menu" id="navMenu">
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						
+						<li class="dropdown">
+							<a href="sobre.html" class="dropdown-toggle">SOBRE</a>
+							<ul class="dropdown-menu">
+								<li><a href="sobre.html#o-que-e">O que é?</a></li>
+								<li><a href="sobre.html#como-funciona">Como Funciona</a></li>
+								<li><a href="sobre.html#evolucao-ias">Evolução das IAs</a></li>
+								<li><a href="sobre.html#melhores-ias">Melhores IAs</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="aplicacoes.html" class="dropdown-toggle">APLICAÇÕES</a>
+							<ul class="dropdown-menu">
+								<li><a href="aplicacoes.html#principais-aplicacoes">Principais Aplicações</a></li>
+								<li><a href="aplicacoes.html#setores">Aplicações nos Setores</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="impactos.html" class="dropdown-toggle">IMPACTOS</a>
+							<ul class="dropdown-menu">
+								<li><a href="impactos.html#negativos">Negativos</a></li>
+								<li><a href="impactos.html#positivos">Positivos</a></li>
+							</ul>
+						</li>
+						<li><a href="bibliografias.html">BIBLIOGRAFIAS</a></li>
+						<li class="dropdown">
+							<a href="creditos.html" class="dropdown-toggle active">CRÉDITOS</a>
+							<ul class="dropdown-menu">
+								<li><a href="creditos.html#orientadores">Orientadores</a></li>
+								<li><a href="creditos.html#desenvolvedores">Desenvolvedores</a></li>
+							</ul>
+						</li>
+						<li><a href="contato.html">CONTATO</a></li>
+						<li class="dropdown lang-picker">
+							<a href="javascript:void(0)" class="dropdown-toggle lang-link">
+								<img src="img/BR.jpg" alt="Bandeira do Brasil" class="flag-img"> PT-BR
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="creditos_ingles.html">
+										<img src="img/USA.jpg" alt="Bandeira dos EUA" class="flag-img"> EN-US
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<section>
+				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="img/banner-cred.jpg" class="d-block w-100 carousel-img" alt="Inteligência Artificial 1">
+							<div class="carousel-caption">
+								<h5>Veja a seguir:</h5>
+								<p>Nossas fontes para este estudo da IA.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="orientadores" class="container mt-5 mb-3">
+				<h1 class="mb-4">Orientadores: </h1>
+				<div class="row gx-3 gy-5 row-cols-sm-2 justify-content-center align-content-center">
+					<div class="col">
+						<div class="col-base orientador d-flex">
+							<div class="col-profile px-4 pt-5 w-50 text-center position-relative">
+								<h2>Profª Bruna<br>Cação<br>Ribeiro</h2>
+							</div>
+							<div class="col-about px-3 py-2 w-50">
+								<ul>
+									<li class="py-1 fs-4">Licenciatura em Letras: Português e Inglês.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="col-base orientador d-flex">
+							<div class="col-profile px-4 pt-5 w-50 text-center position-relative">
+								<h2>Profª Célia<br>Aparecida<br>Barufaldi</h2>
+							</div>
+							<div class="col-about px-3 py-2 w-50">
+								<ul>
+									<li class="py-1">Tecnóloga em Processamento de Dados;</li>
+									<li class="py-1">Especialista em Análise de Sistemas;</li>
+									<li class="py-1">Especialista em Redes de Computadores.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="col-base orientador d-flex">
+							<div class="col-profile px-4 pt-5 w-50 text-center position-relative">
+								<h2>Prof. Ricado<br>Matias<br>de Oliveira</h2>
+							</div>
+							<div class="col-about px-3 py-2 w-50">
+								<ul>
+									<li class="py-1 fs-5">Licenciatura em Letras: Inglês, Português e Espanhol;</li>
+									<li class="py-1 fs-5">Pedagogia;</li>
+									<li class="py-1 fs-5">Gestão Empresarial.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="desenvolvedores" class="container mt-4 mb-3">
+				<h1 class="fw-bold mb-3">Desenvolvedores: </h1>
+				<div class="row gx-3 gy-5 row-cols-sm-2 justify-content-center align-content-center">
+					<div class="col">
+						<div class="col-base d-flex">
+							<div class="col-profile px-4 pt-5 w-50 text-center position-relative">
+								<div class="profile-div">
+									<img class="w-75" src="https://avatars.githubusercontent.com/u/270164911?v=4">
+								</div>
+								<h2 class="mt-5">Adrian<br>Brayan</h2>
+								<p>Github: <a href="https://github.com/adrianbrayamn019-source">adrianbrayamn019-source</a></p>
+							</div>
+							<div class="col-about px-3 py-2 w-50">
+								<h3 class="">Participação</h3>
+								<ul>
+									<li class="py-1">Criador das seções 'O que Esperar do Futuro das IAs' e 'Melhores IAs' da página Sobre;</li>
+									<li class="py-1">Responsável pela pesquisa sobre O que são as IAs;</li>
+									<li class="py-1">Responsável pela tradução parcial sobre O que são as IAs;</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="col-base d-flex">
+							<div class="col-profile px-4 pt-5 w-50 text-center position-relative">
+								<div class="profile-div">
+									<img class="w-75" src="https://avatars.githubusercontent.com/u/272034258?v=4">
+								</div>
+								<h2 class="mt-5">Déborah<br>Málaga</h2>
+								<p>Github: <a href="https://github.com/DNicole2011">DNicole2011</a></p>
+							</div>
+							<div class="col-about px-3 py-2 w-50">
+								<h3 class="">Participação</h3>
+								<ul>
+									<li class="py-1">Criadora da página Home e das seções 'Linha do Tempo' e 'O que Impulsionou a IA' da página Sobre;</li>
+									<li class="py-1">Responsável pela pesquisa sobre Evolução das IAs;</li>
+									<li class="py-1">Responsável pela tradução de 'O que são as IAs?' e 'Evolução das IAs';</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="col-base d-flex">
+							<div class="col-profile px-4 pt-5 w-50 text-center position-relative">
+								<div class="profile-div">
+									<img class="w-75" src="https://avatars.githubusercontent.com/u/264266822?v=4">
+								</div>
+								<h2 class="mt-5">Gabriel<br>Bertotti</h2>
+								<p>Github: <a href="https://github.com/bertotti-g">bertotti-g</a></p>
+							</div>
+							<div class="col-about px-3 py-2 w-50">
+								<h3 class="">Participação</h3>
+								<ul>
+									<li class="py-1">Criador da página Créditos e Aplicações;</li>
+									<li class="py-1">Responsável pela pesquisa sobre Melhores IAs e Suas Aplicações.</li>
+									<li class="py-1">Responsável pela tradução de 'Como Funcionam as IAs?'.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="col-base d-flex">
+							<div class="col-profile px-4 pt-5 w-50 text-center position-relative">
+								<div class="profile-div">
+									<img class="w-75" src="https://avatars.githubusercontent.com/u/294177626?v=4">
+								</div>
+								<h2 class="mt-5">Gabriel<br>Tunner</h2>
+								<p>Github: <a href="https://github.com/gabtunner-jpg">gabtunner-jpg</a></p>
+							</div>
+							<div class="col-about px-3 py-2 w-50">
+								<h3 class="">Participação</h3>
+								<ul>
+									<li class="py-1">Criador das seções 'O que são as IAs' e 'Como Funcionam as IAs' da página Sobre;</li>
+									<li class="py-1">Responsável pela pesquisa sobre 'Impactos da IA' e 'Como Funcionam as IAs';</li>
+									<li class="py-1">Responsável pela tradução de 'As Melhores IAs', 'Como Funcionam as IAs' e 'Impactos das IAs'.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<div class="ancora">
+				<a href="#">
+				<img src="img/ancora.png">
+				</a>
+			</div>
+			
+			<section class="py-5 bg-dark text-white">
+				<footer>
+					<h5>ETEC Ferrúcio Humberto Gazzetta 2026 - &copy; All rights reserved</h5>
+					<hr>
+					<h5>Non-profit academic project</h5>
+				</footer>
+			</section>
+		</main>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

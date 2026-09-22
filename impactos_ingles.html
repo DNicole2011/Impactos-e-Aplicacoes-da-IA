@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>NoosIA - Discover the technology that is revolutionizing the world.<title>
+		<link rel="icon" type="image/png" href="img/icone.png">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header class="header">
+			<div class="nav-container">
+				<div class="logo">
+					<a href="#">Noos<span>IA</span></a>
+				</div>
+				<button class="menu-toggle" id="menuToggle" aria-label="Open Menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+				<nav class="nav-menu" id="navMenu">
+					<ul>
+						<li><a href="index_ingles.html">HOME</a></li>
+						
+						<li class="dropdown">
+							<a href="sobre_ingles.html" class="dropdown-toggle">ABOUT</a>
+							<ul class="dropdown-menu">
+								<li><a href="sobre_ingles.html#o-que-e">What is it?</a></li>
+								<li><a href="sobre_ingles.html#como-funciona">How It Works</a></li>
+								<li><a href="sobre_ingles.html#evolucao-ias">Evolution of AIs</a></li>
+								<li><a href="sobre_ingles.html#melhores-ias">Best AIs</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="aplicacoes_ingles.html" class="dropdown-toggle">APPLICATIONS</a>
+							<ul class="dropdown-menu">
+								<li><a href="aplicacoes_ingles.html#principais-aplicacoes">Main Applications</a></li>
+								<li><a href="aplicacoes_ingles.html#setores">Applications by Sector</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="impactos_ingles.html" class="dropdown-toggle active">IMPACTS</a>
+							<ul class="dropdown-menu">
+								<li><a href="impactos_ingles.html#negativos">Negative</a></li>
+								<li><a href="impactos_ingles.html#positivos">Positive</a></li>
+							</ul>
+						</li>
+						<li><a href="bibliografias_ingles.html">REFERENCES</a></li>
+						<li class="dropdown">
+							<a href="creditos_ingles.html" class="dropdown-toggle">CREDITS</a>
+							<ul class="dropdown-menu">
+								<li><a href="creditos_ingles.html#orientadores">Advisors</a></li>
+								<li><a href="creditos_ingles.html#desenvolvedores">Developers</a></li>
+							</ul>
+						</li>
+						<li><a href="contato_ingles.html">CONTACT</a></li>
+						<li class="dropdown lang-picker">
+							<a href="javascript:void(0)" class="dropdown-toggle lang-link">
+								<img src="img/USA.jpg" alt="US Flag" class="flag-img"> EN-US
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="impactos.html">
+										<img src="img/BR.jpg" alt="Brazil Flag" class="flag-img"> PT-BR
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<main>
+			<section>
+				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="img/banner-imp.jpg" class="d-block w-100 carousel-img" alt="Artificial Intelligence 1">
+							<div class="carousel-caption">
+								<h5>Evolution or Threat?</h5>
+								<p>See both sides of the coin, negative and positive points.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="py-5 bg-dark text-white" id="negativos">
+				<div class="container">
+					<div class="row align-items-center mb-5">
+						<div class="col-lg-7 col-md-6 text-start">
+							<div class="intro-box p-4 p-md-5 rounded-3">
+								<h2 class="fw-bold mb-3">Negative Impacts</h2>
+								<h4 class="text-white mb-3">Understanding the Risks</h4>
+								<p class="text-secondary fs-5 mb-0">
+								Despite being very helpful in everyday life, AI can also bring problems. It can cause dependency, spread fake news, and even replace some jobs. Therefore, it is important to use it carefully without letting it do everything for us.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-5 col-md-6 text-center mt-4 mt-md-0">
+							<div class="intro-img-wrapper">
+								<img src="img/negativo.jpeg" alt="Negative Impacts of AI" class="img-fluid rounded shadow w-100">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="cards-container justify-content-between p-0 flex-wrap" style="display: flex; gap: 20px;">
+								<div class="card-hover-effect" style="flex: 1; min-width: 280px;">
+									<div class="face face1">
+										<div class="content">
+											<h2>Unemployment</h2>
+											<p><strong>Mass automation and structural unemployment</strong><br><br>The replacement of human labor by machines and algorithms is one of the disadvantages of artificial intelligence. AI automates repetitive tasks in sectors such as logistics, customer service, banking, and manufacturing.<br><br>This represents a profound reorganization that can lead to structural unemployment and increase social inequalities.</p>
+										</div>
+									</div>
+									<div class="face face2">
+										<div class="card-img-wrapper">
+											<img src="img/desemprego.jpeg">
+										</div>
+									</div>
+								</div>
+								<div class="card-hover-effect" style="flex: 1; min-width: 280px;">
+									<div class="face face1">
+										<div class="content">
+											<h2>Privacy</h2>
+											<p><strong>Data exploitation and privacy invasion</strong><br><br>Artificial intelligence systems require large volumes of data to function effectively. This constant need for collection raises serious concerns regarding user privacy and information security.<br><br>In many cases, it remains unclear whether data was obtained with consent or how it will be used. The abusive use of this information can lead to situations of surveillance, exposure, and improper manipulation.</p>
+										</div>
+									</div>
+									<div class="face face2">
+										<div class="card-img-wrapper">
+											<img src="img/hacker.jpeg">
+										</div>
+									</div>
+								</div>
+								<div class="card-hover-effect" style="flex: 1; min-width: 280px;">
+									<div class="face face1">
+										<div class="content">
+											<h2>Decisions</h2>
+											<p><strong>Replacing human decisions in sensitive contexts</strong><br><br>The use of AI in judicial, medical, or educational decisions raises a crucial ethical question: to what extent should we delegate human decisions to automated systems? In many cases, algorithms may fail to consider individual contexts, emotional nuances, or social realities, compromising fairness, empathy, and equity in decisions.</p>
+										</div>
+									</div>
+									<div class="face face2">
+										<div class="card-img-wrapper">
+											<img src="img/pensamento.jpg">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="container my-5 py-4" id="positivos">
+				<div class="row align-items-center g-4">
+					<div class="col-lg-5">
+						<div class="impactos-left-card">
+							<div class="impactos-left-content">
+								<h2 class="fw-bold mb-3">Positive Impacts</h2>
+								<p class="mb-0">Based on the research conducted by group members, we have selected 6 main positive points.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-7">
+						<div class="d-flex flex-column gap-3">
+							<div class="topico-horizontal-card">
+								<div class="topico-numero">1</div>
+								<div class="topico-texto">
+									<strong>Automation and Productivity:</strong> AI automates repetitive tasks, increasing productivity in sectors such as industry, logistics, and financial services, allowing workers to focus on creative and strategic activities, reducing operating costs and optimizing processes.
+								</div>
+							</div>
+							<div class="topico-horizontal-card">
+								<div class="topico-numero">2</div>
+								<div class="topico-texto">
+									<strong>Healthcare:</strong> AI algorithms improve medical diagnoses, create personalized treatments, and optimize hospital resources, offering reliable and secure healthcare delivery systems.
+								</div>
+							</div>
+							<div class="topico-horizontal-card">
+								<div class="topico-numero">3</div>
+								<div class="topico-texto">
+									<strong>Education:</strong> AI tools enable personalized learning, adapting content to each student's needs and promoting greater inclusion for students with diverse profiles.
+								</div>
+							</div>
+							<div class="topico-horizontal-card">
+								<div class="topico-numero">4</div>
+								<div class="topico-texto">
+									<strong>Sustainability and Environment:</strong> AI assists in environmental monitoring, natural disaster forecasting, and supporting sustainability projects, contributing to a more balanced and ecological future.
+								</div>
+							</div>
+							<div class="topico-horizontal-card">
+								<div class="topico-numero">5</div>
+								<div class="topico-texto">
+									<strong>Public Services and Urban Mobility:</strong> Smart cities use AI to improve mobility, security, and public resource management, increasing efficiency and quality of life.
+								</div>
+							</div>
+							<div class="topico-horizontal-card">
+								<div class="topico-numero">6</div>
+								<div class="topico-texto">
+									<strong>Digital Inclusion and Service Personalization:</strong> AI platforms expand access to services, such as chatbots and personalized e-commerce recommendations, making experiences more dynamic and user-centric.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<div class="ancora">
+				<a href="#">
+				<img src="img/ancora.png">
+				</a>
+			</div>
+			
+			<section class="py-5 bg-dark text-white">
+				<footer>
+					<h5>ETEC Ferrúcio Humberto Gazzetta 2026 - &copy; All rights reserved</h5>
+					<hr>
+					<h5>Non-profit academic project</h5>
+				</footer>
+			</section>
+		</main>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

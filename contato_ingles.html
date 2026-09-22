@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>NoosIA - Conheça a tecnologia que está revolucionando o mundo.</title>
+		<link rel="icon" type="image/png" href="img/icone.png">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header class="header">
+			<div class="nav-container">
+				<div class="logo">
+					<a href="#">Noos<span>IA</span></a>
+				</div>
+				<button class="menu-toggle" id="menuToggle" aria-label="Open Menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+				<nav class="nav-menu" id="navMenu">
+					<ul>
+						<li><a href="index_ingles.html">HOME</a></li>
+						
+						<li class="dropdown">
+							<a href="sobre_ingles.html" class="dropdown-toggle">ABOUT</a>
+							<ul class="dropdown-menu">
+								<li><a href="sobre_ingles.html#o-que-e">What is it?</a></li>
+								<li><a href="sobre_ingles.html#como-funciona">How It Works</a></li>
+								<li><a href="sobre_ingles.html#evolucao-ias">Evolution of AIs</a></li>
+								<li><a href="sobre_ingles.html#melhores-ias">Best AIs</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="aplicacoes_ingles.html" class="dropdown-toggle">APPLICATIONS</a>
+							<ul class="dropdown-menu">
+								<li><a href="aplicacoes_ingles.html#principais-aplicacoes">Main Applications</a></li>
+								<li><a href="aplicacoes_ingles.html#setores">Applications by Sector</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="impactos_ingles.html" class="dropdown-toggle">IMPACTS</a>
+							<ul class="dropdown-menu">
+								<li><a href="impactos_ingles.html#negativos">Negative</a></li>
+								<li><a href="impactos_ingles.html#positivos">Positive</a></li>
+							</ul>
+						</li>
+						<li><a href="bibliografias_ingles.html">REFERENCES</a></li>
+						<li class="dropdown">
+							<a href="creditos_ingles.html" class="dropdown-toggle">CREDITS</a>
+							<ul class="dropdown-menu">
+								<li><a href="creditos_ingles.html#orientadores">Advisors</a></li>
+								<li><a href="creditos_ingles.html#desenvolvedores">Developers</a></li>
+							</ul>
+						</li>
+						<li><a href="contato_ingles.html" class="active">CONTACT</a></li>
+						<li class="dropdown lang-picker">
+							<a href="javascript:void(0)" class="dropdown-toggle lang-link">
+								<img src="img/USA.jpg" alt="US Flag" class="flag-img"> EN-US
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="contato.html">
+										<img src="img/BR.jpg" alt="Brazil Flag" class="flag-img"> PT-BR
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<main>
+			<section>
+				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="img/banner-cont.jpg" class="d-block w-100 carousel-img" alt="Artificial Intelligence 1">
+							<div class="carousel-caption">
+								<h5>What did you think?</h5>
+								<p>Leave your review for our website below!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="py-5 bg-dark text-white">
+				<div class="container container-cont">
+					<div class="col-lg-7 col-md-6 text-start">
+						<div class="intro-box py-2 px-4 rounded-3">
+							<h2 class="fw-bold mb-0">Form</h2>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<form class="row g-3 needs-validation" novalidate>
+				<div class="col-md-6">
+					<label for="validationCustom01" class="form-label">Name</label>
+					<input type="text" class="form-control" id="validationCustom01" placeholder="Enter your full name" required>
+					<div class="valid-feedback">
+						Looks good!
+					</div>
+					<div class="invalid-feedback">
+						Please enter a name.
+					</div>
+				</div>
+				<div class="col-md-6">
+					<label for="validationCustom02" class="form-label">E-mail</label>
+					<input type="email" class="form-control" id="validationCustom02" placeholder="Enter your e-mail" required>
+					<div class="valid-feedback">
+						Looks good!
+					</div>
+					<div class="invalid-feedback">
+						Please enter a valid e-mail.
+					</div>
+				</div>
+				<div class="col-md-6">
+					<label for="validationCustom03" class="form-label">Phone</label>
+					<input type="text" class="form-control" id="validationCustom03" placeholder="(00) 00000-0000" required>
+					<div class="valid-feedback">
+						Looks good!
+					</div>
+					<div class="invalid-feedback">
+						Please provide a valid phone number.
+					</div>
+				</div>
+				<div class="col-md-6">
+					<label for="validationCustom04" class="form-label">Rate our website</label>
+					<select class="form-select" id="validationCustom04" required>
+						<option selected disabled value="">Choose...</option>
+						<option value="0">0</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+					</select>
+					<div class="valid-feedback">
+						Looks good!
+					</div>
+					<div class="invalid-feedback">
+						Please select a rating.
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="mb-3">
+						<label for="exampleFormControlTextarea1" class="form-label">Leave your comment</label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					</div>
+				</div>
+				
+				<div class="col-12">
+					<button class="btn btn-primary" type="submit">Submit</button>
+				</div>
+			</form>
+		</main>
+		
+		<div class="ancora">
+				<a href="#">
+				<img src="img/ancora.png">
+				</a>
+			</div>
+			
+		<section class="py-5 bg-dark text-white">
+			<footer>
+				<h5>ETEC Ferrúcio Humberto Gazzetta 2026 - &copy; All rights reserved</h5>
+				<hr>
+				<h5>Non-profit academic work</h5>
+				</footer>
+		</section>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+		<script>
+			(() => {
+				'use strict'
+				const forms = document.querySelectorAll('.needs-validation')
+				Array.from(forms).forEach(form => {
+					form.addEventListener('submit', event => {
+						if (!form.checkValidity()) {
+							event.preventDefault()
+							event.stopPropagation()
+						}
+						form.classList.add('was-validated')
+					}, false)
+				})
+			})()
+		</script>
+		<script src="script.js"></script>
+	</body>
+</html>
