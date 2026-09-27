@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>NoosIA - Discover the technology that is revolutionizing the world.</title>
+		<link rel="icon" type="image/png" href="img/icone.png">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header class="header">
+			<div class="nav-container">
+				<div class="logo">
+					<a href="#">Noos<span>IA</span></a>
+				</div>
+				<button class="menu-toggle" id="menuToggle" aria-label="Open Menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+				<nav class="nav-menu" id="navMenu">
+					<ul>
+						<li><a href="index_ingles.html">HOME</a></li>
+						
+						<li class="dropdown">
+							<a href="sobre_ingles.html" class="dropdown-toggle">ABOUT</a>
+							<ul class="dropdown-menu">
+								<li><a href="sobre_ingles.html#o-que-e">Definition</a></li>
+								<li><a href="sobre_ingles.html#como-funciona">Operation</a></li>
+								<li><a href="sobre_ingles.html#evolucao-ias">Evolution</a></li>
+								<li><a href="sobre_ingles.html#melhores-ias">Best </a></li>
+							</ul>
+						</li>
+						<li><a href="aplicacoes.html">APPLICATIONS</a></li>
+						<li class="dropdown">
+							<a href="impactos_ingles.html" class="dropdown-toggle">IMPACTS</a>
+							<ul class="dropdown-menu">
+								<li><a href="impactos_ingles.html#negativos">Negative</a></li>
+								<li><a href="impactos_ingles.html#positivos">Positive</a></li>
+							</ul>
+						</li>
+						<li><a href="bibliografias_ingles.html">REFERENCE</a></li>
+						<li class="dropdown">
+							<a href="creditos_ingles.html" class="dropdown-toggle">CREDITS</a>
+							<ul class="dropdown-menu">
+								<li><a href="creditos_ingles.html#orientadores">Advisors</a></li>
+								<li><a href="creditos_ingles.html#desenvolvedores">Developers</a></li>
+							</ul>
+						</li>
+						<li><a href="contato_ingles.html" class="active">CONTACT</a></li>
+						<li class="dropdown lang-picker">
+							<a href="javascript:void(0)" class="dropdown-toggle lang-link">
+								<img src="img/USA.jpg" alt="US Flag" class="flag-img"> EN-US
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="contato.html">
+										<img src="img/BR.jpg" alt="Brazil Flag" class="flag-img"> PT-BR
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<section>
+				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="img/banner-cont.jpg" class="d-block w-100 carousel-img" alt="Inteligência Artificial 1">
+							<div class="carousel-caption">
+								<h5>Get in Touch</h5>
+								<p>Answer below your feedback of our site!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="py-5 bg-dark text-white">
+				<div class="container container-cont">
+					<div class="col-lg-7 col-md-6 text-start">
+						<div class="intro-box py-2 px-4 rounded-3">
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+    <form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-6">
+    <label for="validationCustom01" class="form-label">Name</label>
+    <input type="text" class="form-control" id="validationCustom01" pattern="[A-Za-z\s]+$" minlength="2" maxlength="50" placeholder="Insert your full name REQUIRED" required>
+    <div class="invalid-feedback">
+      Please, insert your full name.
+  </div>
+</div>
+
+  <div class="col-md-6">
+    <label for="validationCustom02" class="form-label">E-Mail</label>
+    <div class="input-group has-validation">
+      <input type="email" class="form-control" id="validationCustom02" aria-describedby="inputGroupPrepend" placeholder="Insert your email REQUIRED" required>
+      <div class="invalid-feedback">
+        Please, insert a valid email.
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-6">
+    <label for="validationCustom03" class="form-label">Phone number</label>
+    <input type="tel" class="form-control" id="validationCustom03" pattern="[0-9]{11}" placeholder="Insert your phone number REQUIRED" required>
+    <div class="invalid-feedback">
+      Please, insert a valid phone number.
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <label for="validationCustom04" class="form-label">Rate our website!</label>
+    <select class="form-select" id="validationCustom04" required>
+      <option selected disabled value="">...</option>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+    <div class="invalid-feedback">
+      Please, select a rating.
+    </div>
+  </div>
+
+  <div class="col-12">
+	<div class="mb-3">
+		<label for="exampleFormControlTextarea1" class="form-label">Leave your comment</label>
+		<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+	</div>
+  </div>
+
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+		</main>
+		
+		<a href="#topo" id="btn-ancora" class="btn-ancora" title="Voltar ao topo">
+				<img src="img/ancora.png" alt="Voltar ao topo">
+			</a>
+			
+		<section class="py-5 bg-dark text-white">
+			<footer>
+				<h5>ETEC Ferrúcio Humberto Gazzetta 2026 - &copy; All rights reserved</h5>
+				<hr>
+				<h5>Non-profit academic work</h5>
+				</footer>
+		</section>
+		<script> 
+			window.addEventListener('scroll', function () { const btnAncora = document.getElementById('btn-ancora'); 
+			if (window.scrollY > 150) { btnAncora.classList.add('visivel'); } else { btnAncora.classList.remove('visivel');
+			} }); 
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <script>
+                // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (() => {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.from(forms).forEach(form => {
+            form.addEventListener('submit', event => {
+            if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+            }
+
+            form.classList.add('was-validated')
+            }, false)
+        })
+        })()
+        </script>
+		<script src="script.js"></script>
+	</body>
+</html>

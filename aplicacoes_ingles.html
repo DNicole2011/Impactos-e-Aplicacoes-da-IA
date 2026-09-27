@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>NoosAI - Discover the technology that is revolutionizing the world.</title>
+		<link rel="icon" type="image/png" href="img/icone.png">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body id="topo">
+		<header class="header">
+			<div class="nav-container">
+				<div class="logo">
+					<a href="#">Noos<span>AI</span></a>
+				</div>
+				<button class="menu-toggle" id="menuToggle" aria-label="Open Menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+				<nav class="nav-menu" id="navMenu">
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li class="dropdown">
+							<a href="sobre.html" class="dropdown-toggle">ABOUT</a>
+							<ul class="dropdown-menu">
+								<li><a href="sobre_ingles.html#o-que-e">Definition</a></li>
+								<li><a href="sobre_ingles.html#como-funciona">Operation</a></li>
+								<li><a href="sobre_ingles.html#evolucao-ias">Evolution</a></li>
+								<li><a href="sobre_ingles.html#melhores-ias">Best </a></li>
+							</ul>
+						</li>
+						<li><a href="aplicacoes.html" class="active">APPLICATIONS</a></li>
+						<li class="dropdown">
+							<a href="impactos.html" class="dropdown-toggle">IMPACTS</a>
+							<ul class="dropdown-menu">
+								<li><a href="impactos.html#negativos">Negative</a></li>
+								<li><a href="impactos.html#positivos">Positive</a></li>
+							</ul>
+						</li>
+						<li><a href="bibliografias.html">BIBLIOGRAPHY</a></li>
+						<li class="dropdown">
+							<a href="creditos.html" class="dropdown-toggle">CREDITS</a>
+							<ul class="dropdown-menu">
+								<li><a href="creditos.html#orientadores">Advisors</a></li>
+								<li><a href="creditos.html#desenvolvedores">Developers</a></li>
+							</ul>
+						</li>
+						<li><a href="contato.html">CONTACT</a></li>
+						<li class="dropdown lang-picker">
+							<a href="javascript:void(0)" class="dropdown-toggle lang-link">
+								<img src="img/USA.jpg" alt="USA Flag" class="flag-img"> EN-US
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="aplicacoes.html">
+										<img src="img/BR.jpg" alt="Brazil Flag" class="flag-img"> PT-BR
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<section>
+				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="https://images.unsplash.com/photo-1773332611628-9e1bdce4881b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100 carousel-img" alt="Artificial Intelligence 1">
+							<div class="carousel-caption">
+								<h5>AI Applications</h5>
+								<p>AI applications are software programs that use artificial intelligence techniques to perform simple tasks or even complex tasks that require human-level intelligence.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="principais-aplicacoes" class="container">
+				<h1 class="mt-5">Main Applications</h1>
+				<p class="my-3 fs-5 fw-light">Some of the main applications used are:</p>
+				<div class="row row-cols-sm-1 row-cols-md2 row-cols-lg-3 g-3">
+					<div class="col-12">
+						<div class="card bg-dark border-secondary w-100">
+							<img class="card-img-top" src="https://images.unsplash.com/photo-1746883741191-731ab4e2bb4f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Generative AI">
+							<div class="text-white card-body">
+								<h5 class="card-title">Generative AI</h5>
+								<p class="card-text">Generative AI can create original content such as text, images, videos, and audio.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12">
+						<div class="card bg-dark border-secondary w-100">
+							<img class="card-img-top" src="https://images.unsplash.com/photo-1762326866124-d26a3ca51477?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Recommendation Engines">
+							<div class="text-white card-body">
+								<h5 class="card-title">Recommendation Engines</h5>
+								<p class="card-text">These are systems that analyze data to identify patterns and provide recommendations based on them.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12">
+						<div class="card bg-dark border-secondary w-100">
+							<img class="card-img-top" src="https://images.unsplash.com/photo-1750365920056-d4b4ca73fbaa?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Natural Language Processing">
+							<div class="card-body text-white">
+								<h5 class="card-title">Natural Language Processing</h5>
+								<p class="card-text">AI that uses machine learning to understand and communicate using human language.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="setores" class="container">
+				<h1 class="mt-5 mb-4">Applications Across Sectors</h1>
+				<p class="my-3 fs-5 fw-light">AI applications are being used to simplify operations and drive innovation across various industries. Here are some examples of how different sectors are leveraging artificial intelligence:</p>
+				<div class="clearfix">
+					<h2 class="my-3">Healthcare</h2>
+					<div class="d-flex flex-wrap align-items-center justify-content-between border border-white p-4 rounded-4">
+						<p class="fs-4 w-75 float-lg-end justify-self-center">Uses AI for medical diagnostics and treatment planning. Systems with natural language processing are used to extract medical records for billing, coding, and more efficient data management. In addition to using AI for taking clinical notes, doctors are also utilizing AI systems to create personalized treatment plans based on patient data analysis.</p>
+						<img class="flex-lg-start rounded-circle border border-3" src="https://images.unsplash.com/photo-1551601651-09492b5468b6?q=80&w=913&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Healthcare">
+					</div>
+
+					<h2 class="my-3">Industry</h2>
+					<div class="d-flex flex-wrap align-items-center justify-content-between border border-white p-4 rounded-4">
+						<p class="fs-4 w-75 float-lg-end justify-self-center">AI applications such as natural language processing are being used to improve energy efficiency, enhance predictive maintenance, enable better supply chain management, and provide custom manufacturing services. Furthermore, manufacturers use AI to accelerate production and optimize workflows, reducing human error, labor costs, and maintenance expenses.</p>
+						<img class="flex-lg-start rounded-circle border border-3" src="https://images.unsplash.com/photo-1617906681877-728fa008950b?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Industry">
+					</div>
+
+					<h2 class="my-3">Education</h2>
+					<div class="d-flex flex-wrap align-items-center justify-content-between border border-white p-4 rounded-4">
+						<p class="fs-4 w-75 float-lg-end justify-self-center">Teachers use AI tools for content creation, lesson planning simplification, assignment grading, and feedback, allowing them to dedicate more time to teaching and spend less time on administrative tasks. Educators can also create AI-generated content tailored to individual student needs, making learning more personalized.</p>
+						<img class="flex-lg-start rounded-circle border border-3" src="https://images.unsplash.com/photo-1786667395410-7bc4df5d7569?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Education">
+					</div>
+				</div>
+			</section>
+			<a href="#topo" id="btn-ancora" class="btn-ancora" title="Back to top">
+				<img src="img/ancora.png" alt="Back to top">
+			</a>
+			
+			<section class="py-5 bg-dark text-white">
+				<footer>
+					<h5>ETEC Ferrúcio Humberto Gazzetta 2026 - &copy; All rights reserved</h5>
+					<hr>
+					<h5>Non-profit academic project</h5>
+				</footer>
+			</section>
+		</main>
+		<script> 
+			window.addEventListener('scroll', function () { const btnAncora = document.getElementById('btn-ancora'); 
+			if (window.scrollY > 150) { btnAncora.classList.add('visivel'); } else { btnAncora.classList.remove('visivel');
+			} }); 
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
