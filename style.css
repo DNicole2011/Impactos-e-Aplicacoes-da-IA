@@ -226,7 +226,7 @@ body {
 -----------------CARROSSEL---------------------*/
 
 .carousel-item {
-    height: 500px; 
+    height: 700px; 
     background-color: #0b0b0e;
 }
 
@@ -996,25 +996,21 @@ footer hr {
 /*---------------------ancora-------------------*/
 
 
-/* Rolagem suave para toda a página ao clicar no link */
 html {
   scroll-behavior: smooth;
 }
 
-/* Estilização da âncora flutuante */
 .btn-ancora {
   position: fixed;
   bottom: 40px; /* Distância do fundo da janela (evita colar no footer) */
   right: 30px;  /* Distância da borda direita */
   z-index: 999; /* Garante que fique por cima do conteúdo */
  
-  /* Começa oculto com efeito de transição suave */
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.2s ease;
 }
 
-/* Tamanho da imagem da âncora */
 .btn-ancora img {
   width: 50px;   /* Ajuste para o tamanho desejado */
   height: 50px;  /* Ajuste para o tamanho desejado */
@@ -1022,13 +1018,12 @@ html {
   display: block;
 }
 
-/* Classe aplicada pelo JS quando a página for rolada */
+
 .btn-ancora.visivel {
   opacity: 1;
   visibility: visible;
 }
 
-/* Efeito visual ao passar o mouse (opcional) */
 .btn-ancora:hover {
   transform: translateY(-4px);
 }
@@ -1154,14 +1149,13 @@ html {
     background-color: #00a8ff !important;
 }
 
-/* Base Timeline Line Setup */
+
 .timeline-line {
     position: absolute;
-    background-color: #b3b3b3; /* Bootstrap border color */
+    background-color: #b3b3b3;
     z-index: 0;
   }
-  
-  /* Perfect Circle for Numbers */
+
   .step-badge {
     width: 40px;
     height: 40px;
@@ -1171,16 +1165,13 @@ html {
     font-weight: bold;
     font-size: 1.1rem;
     position: relative;
-    z-index: 2; /* Ensures badges sit firmly above the background line */
+    z-index: 2;
   }
   
-  /* 💻 Desktop Styles (Perfect Horizontal Alignment) */
   @media (min-width: 768px) {
     .timeline-line {
-      /* Anchors line exactly behind the badge row center */
       top: 44px; 
-      /* Trims line ends to keep it strictly within the first and last card centers */
-      left: calc(100% / 6);
+    	left: calc(100% / 6);
       right: calc(100% / 6);
       height: 3px;
       width: auto;
@@ -1188,10 +1179,8 @@ html {
     }
   }
   
-  /* 📱 Mobile Styles (Perfect Vertical Alignment) */
   @media (max-width: 767.98px) {
     .timeline-line {
-      /* Runs line smoothly from the first card's badge top to the last card's badge */
       top: 44px;
       bottom: 44px;
       left: 50%;
