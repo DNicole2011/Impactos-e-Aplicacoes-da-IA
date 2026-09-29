@@ -992,6 +992,7 @@ footer hr {
 
 .card-img-top{
 	height: 55vh;
+	object-fit: cover;
 }
 /*---------------------ancora-------------------*/
 
