@@ -633,7 +633,7 @@ body {
 
 .col-about {
     border-left: 2px solid #00a8ff;
-    overflow: auto;
+    overflow: visible;
 }
 
 .orientador {
