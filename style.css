@@ -1208,3 +1208,100 @@ html {
         font-size: 0.86rem;
     }
 }
+
+/*-------------------------sobre-------------------*/
+.oque-texto{
+    width:50%;
+    float:left;
+}
+
+.oque-texto .card{
+    background-color:#1f1f26;
+    color:#fff;
+    border:1px solid #d1d1d6;
+}
+
+.oque-cards{
+    width:40%;
+    float:right;
+}
+
+.oque-cards .row .col{
+    aspect-ratio: 3/2;
+}
+
+
+.oque-cards .row .col .card-body{
+    background-color:#fff;
+    color:#1f1f26;
+    border-radius:10px;
+    height:100%;
+    padding:1rem;
+}
+
+.oque-cards .row .col .card1 .card-body{
+    background-color:#00a8ff;
+    color:#1f1f26;
+}
+
+.oque-cards .row .col .card2 .card-body{
+    background-color: #1f1f26;
+    color:#fff;
+}
+
+.oque-cards .row .col .card3 .card-body{
+    background-color:#fff;
+    color:#1f1f26;
+}
+
+.oque-cards .row .col .card4 .card-body{
+    background-color:#2b6cb0;
+    color:#fff;
+}
+
+@media (max-width: 768px) {
+    .oque-texto, .oque-cards {
+        width: 90%;
+        float: none;
+        margin:1rem auto;
+        font-size:1rem;
+        line-height:1.5rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .oque-texto {
+        width: 100%;
+        float: none;
+    }
+    .oque-cards{
+        float:none;
+        width:100%;
+    }
+
+}
+
+@media (min-width: 993px){
+    .oque-cards .card-text{
+        font-size:1rem;
+        line-height:1.5rem;
+    }
+    .oque-cards .card-body{
+        overflow: auto;
+    }
+
+    .oque-cards, .oque-texto{
+        margin:2rem auto;
+    }
+
+    .oque-texto .card{
+        padding:1rem;
+    }
+
+    .oque-container{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+    }
+}
+
