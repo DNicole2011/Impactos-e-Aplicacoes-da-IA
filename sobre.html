@@ -430,56 +430,68 @@ Vamos demonstrar uma visão ampla sobre as inteligências artificiais, definindo
 				</div>
 			</section>
 			
-			<section class="py-5 text-white">
-			<div class="container">
-			<div class="row justify-content-start">
-			<div class="col-lg-8 col-md-10 text-start">
-			<div class="intro-box p-4 p-md-5 rounded-3">
-			<h2 class="fw-bold mb-3">O que impulsionou a IA?</h2>
-			</div>
-			</div>
-			</div>
-			</div>
-			<div class="cards-duplos-wrapper">
-			<div class="card-item-custom">
-			<div class="card-body-custom">
-			<h3 class="titulo-impulso">GPUs</h3>
-			<p class="text-secondary mb-0">
-			Inicialmente suas funções eram voltadas a gráficos, elas
-			dividem problemas complexos em várias tarefas e trabalham nelas
-			simultaneamente, em vez de uma a uma, como ocorre nas CPUs. Com a
-			necessidade de um aprendizado profundo nas IAs, elas foram usadas justamente
-			por conta dessa capacidade de processamento
-			</p>
-			</div>
-			</div>
-			
-			<div class="card-item-custom">
-			<div class="card-body-custom">
-			<h3 class="titulo-impulso">TPUs</h3>
-			<p class="text-secondary mb-0">
-			Seu objetivo quando desenvolvidas foi acelerar as cargas de
-			trabalho de machine learning, elas operam no tensor, destacando-se no
-			processamento de grandes volumes de dados e na execução eficiente de redes
-			neurais complexas, permitindo tempos rápidos de treinamento e inferência.
-			</p>
-			</div>
-			</div>
-			
-			<div class="card-item-custom">
-			<div class="card-body-custom">
-			<h3 class="titulo-impulso">Era da Informação</h3>
-			<p class="text-secondary mb-0">
-			O "combustível" da IA. Temos um volume imenso de informações (textos,
-			imagens, vídeos, etc). É essa a quantidade de informações que a IA precisa lidar
-			quando você pergunta algo a ela; por isso é altamente necessário que ela se
-			desenvolva continuamente para lidar com tudo isso e dê uma resposta concreta e
-			correta.
-			</p>
-			</div>
-			</div>
-			</div>
-			</section>
+			<section class="py-5 bg-dark text-white">
+  <div class="container">
+    <div class="row justify-content-start mb-4">
+      <div class="col-lg-8 col-md-10 text-start">
+        <div class="intro-box p-4 p-md-5 rounded-3">
+          <h2 class="fw-bold mb-3">O que impulsionou a IA?</h2>
+          <p class="text-secondary mb-0">Entenda os três pilares fundamentais que permitiram o salto de desempenho e a evolução acelerada da inteligência artificial nos últimos anos.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- Card 1: GPUs -->
+      <div class="col">
+        <div class="card h-100 bg-secondary bg-opacity-10 border border-secondary border-opacity-25 rounded-4 p-4 text-start card-impulso-hover">
+          <div class="icon-box-impulso mb-3 d-flex align-items-center justify-content-center bg-primary bg-opacity-10 text-primary rounded-3" style="width: 50px; height: 50px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-cpu" viewBox="0 0 16 16">
+              <path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h.5A1.5 1.5 0 0 1 14 3.5V4h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v.5a1.5 1.5 0 0 1-1.5 1.5H12v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-.5A1.5 1.5 0 0 1 2 12.5V12H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2V6H.5a.5.5 0 0 1 0-1H2v-.5A1.5 1.5 0 0 1 3.5 2H4V.5a.5.5 0 0 1 .5-.5zM2.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-9z"/>
+              <path d="M5.5 5h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-5a.5.5 0 0 1 .5-.5z"/>
+            </svg>
+          </div>
+          <h3 class="h4 fw-bold text-light mb-3">GPUs</h3>
+          <p class="text-secondary mb-0 fs-6">
+            Projetadas originalmente para gráficos 3D, as GPUs destacam-se por processar milhares de tarefas simultaneamente. Essa arquitetura paralela tornou-se essencial para treinar algoritmos de aprendizado profundo de forma rápida.
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 2: TPUs -->
+      <div class="col">
+        <div class="card h-100 bg-secondary bg-opacity-10 border border-secondary border-opacity-25 rounded-4 p-4 text-start card-impulso-hover">
+          <div class="icon-box-impulso mb-3 d-flex align-items-center justify-content-center bg-info bg-opacity-10 text-info rounded-3" style="width: 50px; height: 50px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-diagram-3" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6h-1A1.5 1.5 0 0 1 6 4.5v-1zM7.5 3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM0 12.5A1.5 1.5 0 0 1 1.5 11h1A1.5 1.5 0 0 1 4 12.5v1A1.5 1.5 0 0 1 2.5 15h-1A1.5 1.5 0 0 1 0 13.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm11 0a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"/>
+              <path fill-rule="evenodd" d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8H6.5a.5.5 0 0 1 0 1H3.5a.5.5 0 0 1-.5-.5V5.5a.5.5 0 0 1 1 0v2.293l2.646-2.647a.5.5 0 0 1 .708 0zM9.146 4.646a.5.5 0 0 0 0 .708L11.793 8H9.5a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5V5.5a.5.5 0 0 0-1 0v2.293L9.354 4.646a.5.5 0 0 0-.708 0z"/>
+            </svg>
+          </div>
+          <h3 class="h4 fw-bold text-light mb-3">TPUs</h3>
+          <p class="text-secondary mb-0 fs-6">
+            Hardware desenvolvido especificamente para acelerar cargas de *Machine Learning*. As TPUs otimizam cálculos matemáticos com tensores, garantindo respostas em tempo recorde e alta eficiência energética.
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 3: Era da Informação -->
+      <div class="col">
+        <div class="card h-100 bg-secondary bg-opacity-10 border border-secondary border-opacity-25 rounded-4 p-4 text-start card-impulso-hover">
+          <div class="icon-box-impulso mb-3 d-flex align-items-center justify-content-center bg-warning bg-opacity-10 text-warning rounded-3" style="width: 50px; height: 50px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-database" viewBox="0 0 16 16">
+              <path d="M4.318 2.687C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4c0-.373.356-.875 1.318-1.313ZM13 5.698C12.064 6.11 10.74 6.4 9 6.4c-1.74 0-3.064-.29-4-.702V7c0 .374.356.875 1.318 1.313C7.234 8.729 8.536 9 10 9s2.766-.27 3.682-.687C14.644 7.875 15 7.373 15 7V5.698ZM15 8.698C14.064 9.11 12.74 9.4 11 9.4c-1.74 0-3.064-.29-4-.702V10c0 .374.356.875 1.318 1.313C9.234 11.729 10.536 12 12 12s2.766-.27 3.682-.687C16.644 10.875 17 10.373 17 10V8.698Z"/>
+              <path d="M14 4c0-1.105-2.686-2-6-2S2 2.895 2 4v8c0 1.105 2.686 2 6 2s6-.895 6-2V4Z"/>
+            </svg>
+          </div>
+          <h3 class="h4 fw-bold text-light mb-3">Era da Informação</h3>
+          <p class="text-secondary mb-0 fs-6">
+            O verdadeiro combustível da inteligência artificial. O acesso a volumes gigantescos de dados (Big Data) permite que os modelos aprendam padrões complexos e forneçam respostas cada vez mais precisas.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 			
 			<section class="py-5 bg-dark text-white">
 			<div class="container">
