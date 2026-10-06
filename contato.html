@@ -93,7 +93,7 @@
     <form class="row g-3 needs-validation" novalidate>
   <div class="col-md-6">
     <label for="validationCustom01" class="form-label">Nome</label>
-    <input type="text" class="form-control" id="validationCustom01" pattern="[A-Za-zà-Ý\s]+$" minlength="2" maxlength="50" placeholder="Insira seu nome completo OBRIGATÓRIO" required>
+    <input type="text" class="form-control" id="validationCustom01" pattern="[A-Za-z\s]+$" minlength="2" maxlength="50" placeholder="Insira seu nome completo OBRIGATÓRIO" required>
     <div class="invalid-feedback">
       Por favor, insira seu nome completo.
   </div>
@@ -140,11 +140,13 @@
 	</div>
   </div>
 
-  <div class="col-12">
-    <button class="btn btn-primary" type="submit">Enviar</button>
-  </div>
-  <div clas="col-12">
-	  <button class="btn btn-primary" type="reset">Limpar</button>
+  <div class="d-inline-flex justify-content-start col-12">
+	<div class="col-1">
+		<button class="btn btn-primary" type="submit">Enviar</button>
+	</div>
+	<div clas="col-1">
+		<button class="btn btn-primary" type="reset">Limpar</button>
+	</div>
   </div>
 </form>
 		</main>
